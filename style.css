@@ -1,0 +1,21 @@
+.container{
+
+    height:100vh;
+}
+
+.product{
+  display: flex;
+  height: 100%;
+}
+
+.product__photo--center{
+  background: #f2e5de;
+  flex-basis: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product__content{
+      flex: 1;
+}

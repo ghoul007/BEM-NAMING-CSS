@@ -1,0 +1,24 @@
+{
+  "name": "bem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghoul007/BEM-NAMING-CSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghoul007/BEM-NAMING-CSS/issues"
+  },
+  "homepage": "https://github.com/ghoul007/BEM-NAMING-CSS#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2"
+  }
+}
