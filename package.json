@@ -1,24 +1,30 @@
 {
-  "name": "bem",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ghoul007/BEM-NAMING-CSS.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ghoul007/BEM-NAMING-CSS/issues"
-  },
-  "homepage": "https://github.com/ghoul007/BEM-NAMING-CSS#readme",
-  "dependencies": {},
-  "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.11.2"
-  }
+    "name": "bem",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+       "build": "gulp watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ghoul007/BEM-NAMING-CSS.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ghoul007/BEM-NAMING-CSS/issues"
+    },
+    "homepage": "https://github.com/ghoul007/BEM-NAMING-CSS#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "@fortawesome/fontawesome-free": "^5.11.2",
+        "del": "^3.0.0",
+        "gulp": "^4.0.0",
+        "gulp-autoprefixer": "^6.0.0",
+        "gulp-clean-css": "^4.0.0",
+        "gulp-rename": "^1.4.0",
+        "gulp-sass": "^4.0.2"
+    }
 }
